@@ -1,3 +1,6 @@
-$(function() {
-    $("#text").css('display', 'block');
+$(function () {
+
+    $("button").click(function () {
+        displaySecretText();
+    });
 })
